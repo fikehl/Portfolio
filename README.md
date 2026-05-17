@@ -1,109 +1,47 @@
-# Portfolio
-<!DOCTYPE html>
-<html lang="sv">
-<head>
-  <meta charset="UTF-8">
-  <title>Filip Kehl - E-portfolio</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 900px;
-      margin: 40px auto;
-      line-height: 1.6;
-      padding: 0 20px;
-      background-color: #f7f7f7;
-      color: #222;
-    }
+# Filip Kehl - E-portfolio
 
-    header, section {
-      background: white;
-      padding: 25px;
-      margin-bottom: 20px;
-      border-radius: 10px;
-    }
+## About me
+I'm a 20 year old student from Germany, currently studying IT at KTH (Kungliga Tekniska högskolan) in Stockholm, Sweden. I have a big passion for technology and I'm always looking for new challenges. In my free time I enjoy learning new things, play football, and spending time with my friends. Beyond my technical skills, my diverse background—ranging from data annotation and strategic marketing in Berlin to high-paced restaurant service, has shaped me into an analytical, stress-resilient, and collaborative team player. Furthermore, I thrive in dynamic environments, utilizing my fluency in Swedish, German, and English to communicate effectively and adapt to new challenges.
 
-    h1, h2 {
-      color: #1f3a5f;
-    }
+## Contact
+Email: filipkehl@gmail.com  
+GitHub: https://github.com/fikehl 
+LinkedIn: https://www.linkedin.com/in/filip-kehl-912272264/
 
-    a {
-      color: #005bbb;
-    }
+## Projects
+### SkinMatch
+A skincare website that helps users determine if products are safe for their specific skin type, allergies, and physical conditions based on barcode scans and ingredient analysis.
 
-    .project {
-      border-left: 4px solid #1f3a5f;
-      padding-left: 15px;
-      margin-bottom: 25px;
-    }
-  </style>
-</head>
-<body>
+Github repository: https://gits-15.sys.kth.se/iprog-students/carln8-fkehl-jimmieki-liyuns-HT25-Project
 
-  <header>
-    <h1>Filip Kehl - E-portfolio</h1>
-    <p>
-      Hej, jag heter Filip Kehl och studerar vid KTH. 
-      Denna E-portfolio innehåller exempel på projekt och arbeten jag har genomfört inom teknik, programmering och digitalteknik.
-    </p>
-    <p>
-      Kontakt: <a href="mailto:filipkehl@gmail.com">filipkehl@gmail.com</a>
-    </p>
-  </header>
+### Pong (VGA)
+A classic Pong game built for a VGA graphical display using C. It features X/Y ball movement, Y-axis paddle control, natural bounce physics on paddles and walls, and win state detection.
 
-  <section>
-    <h2>Om mig</h2>
-    <p>
-      Jag är en teknikstudent med intresse för programmering, problemlösning och praktiska tekniska projekt.
-      Jag tycker om att arbeta strukturerat och att utveckla lösningar som kan testas och förbättras steg för steg.
-    </p>
-  </section>
+The repository for this project is private because it contains course-related material. 
 
-  <section>
-    <h2>Projekt</h2>
+### Sortrace
+Web application for housing associations (BRF) to monitor waste sorting quality, identify mis-sorting patterns, and reduce unnecessary costs. Built in collaboration with Sortrace.
 
-    <div class="project">
-      <h3>Digital räknare med 7-segmentsdisplay</h3>
-      <p>
-        I detta projekt arbetade jag med digitalteknik och byggde en räknarkrets med hjälp av bland annat en Schmitt-trigger,
-        en 74HC161-räknare, en 74HC138-dekoder och en 7-segmentsdisplay.
-      </p>
-      <p>
-        <strong>Tekniker:</strong> Digitalteknik, logiska kretsar, räknare, dekodning och teknisk dokumentation.
-      </p>
-      <p>
-        <strong>Mitt bidrag:</strong> Jag analyserade kretsens funktion, genomförde tester och dokumenterade resultatet.
-      </p>
-      <p>
-        <strong>Resultat:</strong> Kretsen kunde räkna pulser och presentera värdet visuellt på en display.
-      </p>
-    </div>
+## Features
 
-    <div class="project">
-      <h3>Java-projekt</h3>
-      <p>
-        Detta projekt visar min förmåga att skriva, felsöka och strukturera kod i Java.
-      </p>
-      <p>
-        <strong>Tekniker:</strong> Java, objektorienterad programmering, sortering och felsökning.
-      </p>
-      <p>
-        <strong>Mitt bidrag:</strong> Jag implementerade funktionalitet, testade programmet och löste problem kopplade till stränghantering.
-      </p>
-    </div>
+- **Dashboard** — KPI cards (mis-sorted bins, mis-sorting rate, total collections, estimated cost), pie chart by material type, trend chart, and cost-over-time chart. Includes a percentile badge showing how the association ranks against others.
+- **Sorting Guide** — Per-material sorting instructions tailored to the association's 30-day data, with AI-generated cost impact explanations.
+- **Reports** — Generate and download PDF reports with KPI summaries, material distribution, cost forecasts, and action suggestions. Supports Swedish and English.
+- **Evidence** — Browse image and video evidence linked to mis-sorting incidents, with card and table views.
+- **Settings** — Language (Swedish / English) and theme (light / dark / system) preferences.
+- **AI Chat** — Assistant that answers questions about the association's waste statistics.
 
-  </section>
+## Tech Stack
 
-  <section>
-    <h2>Kompetenser</h2>
-    <ul>
-      <li>Java-programmering</li>
-      <li>HTML och CSS</li>
-      <li>Digitalteknik</li>
-      <li>Teknisk rapportskrivning</li>
-      <li>Problemlösning och felsökning</li>
-      <li>Git och GitHub</li>
-    </ul>
-  </section>
+| Layer | Technology |
+|---|---|
+| Framework | Next.js 16, React 19, TypeScript |
+| UI | Tailwind CSS, Base UI, Radix UI, Recharts |
+| Auth | JWT in HTTP-only cookies (jose), bcrypt, Prisma |
+| PDF | @react-pdf/renderer |
+| AI | Google Gemini via REST API (`generativelanguage.googleapis.com`) |
+| Database | PostgreSQL, Prisma |
+| Testing | Vitest |
+| Hosting | Railway (optional) |
 
-</body>
-</html>
+The repository for this project is private and is not owned by me since it was an external project. 
