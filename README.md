@@ -14,15 +14,17 @@ A skincare website that helps users determine if products are safe for their spe
 
 Github repository: https://gits-15.sys.kth.se/iprog-students/carln8-fkehl-jimmieki-liyuns-HT25-Project
 
+
 ### Pong (VGA)
 A classic Pong game built for a VGA graphical display using C. It features X/Y ball movement, Y-axis paddle control, natural bounce physics on paddles and walls, and win state detection.
 
 The repository for this project is private because it contains course-related material. 
 
+
 ### Sortrace
 Web application for housing associations (BRF) to monitor waste sorting quality, identify mis-sorting patterns, and reduce unnecessary costs. Built in collaboration with Sortrace.
 
-## Features
+#### Features
 
 - **Dashboard** — KPI cards (mis-sorted bins, mis-sorting rate, total collections, estimated cost), pie chart by material type, trend chart, and cost-over-time chart. Includes a percentile badge showing how the association ranks against others.
 - **Sorting Guide** — Per-material sorting instructions tailored to the association's 30-day data, with AI-generated cost impact explanations.
@@ -31,7 +33,7 @@ Web application for housing associations (BRF) to monitor waste sorting quality,
 - **Settings** — Language (Swedish / English) and theme (light / dark / system) preferences.
 - **AI Chat** — Assistant that answers questions about the association's waste statistics.
 
-## Tech Stack
+#### Tech Stack
 
 | Layer | Technology |
 |---|---|
