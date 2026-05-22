@@ -33,6 +33,11 @@ Web application for housing associations (BRF) to monitor waste sorting quality,
 - **Settings** — Language (Swedish / English) and theme (light / dark / system) preferences.
 - **AI Chat** — Assistant that answers questions about the association's waste statistics.
 
+<img width="1470" height="799" alt="image" src="https://github.com/user-attachments/assets/a5c49dc0-9ec7-40e3-b8e9-297a618c4be6" />
+<img width="1470" height="800" alt="image" src="https://github.com/user-attachments/assets/1b7ffa02-f645-4530-a6c4-e4699d5833af" />
+<img width="1470" height="797" alt="image" src="https://github.com/user-attachments/assets/14fec8d6-ac2d-47d5-87d3-e2acc6f23216" />
+
+
 #### Tech Stack
 
 | Layer | Technology |
@@ -46,4 +51,4 @@ Web application for housing associations (BRF) to monitor waste sorting quality,
 | Testing | Vitest |
 | Hosting | Railway (optional) |
 
-Github repository: https://github.com/ersmark/sortrace-avfalls-app 
+The repository is private and is not owned by me, since this was an external collaboration project. Therefore, I cannot publish or redistribute the source code. 
