@@ -46,4 +46,4 @@ Web application for housing associations (BRF) to monitor waste sorting quality,
 | Testing | Vitest |
 | Hosting | Railway (optional) |
 
-The repository for this project is private and is not owned by me since it was an external project. 
+Github repository: https://github.com/ersmark/sortrace-avfalls-app 
